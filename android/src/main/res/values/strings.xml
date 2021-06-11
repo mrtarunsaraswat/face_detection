@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="txt_need_camera_storage_permission">We will need camera &amp; storage access to detect liveness and selfie capture.</string>
+    <string name="selfie_txt">Your selfie will be captured. Hold steady and fill your
+face in the circle.</string>
+    <string name="blink_eye">Blink your eyes</string>
+</resources>

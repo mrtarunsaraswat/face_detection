@@ -1,0 +1,36 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.flutter.mtpl.selfie_ocr_mtpl">
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="face,ocr" />
+
+
+        <activity
+            android:name=".FaceTrackerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+<!--        <activity-->
+<!--            android:name=".ui.ActDisplayImage"-->
+<!--            android:screenOrientation="portrait"-->
+<!--            android:theme="@style/AppTheme" />-->
+    </application>
+
+</manifest>
